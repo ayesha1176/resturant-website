@@ -1,0 +1,52 @@
+.Home{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Home .headerContainer h1{
+justify-content: center;
+align-items: center;
+font-weight: bold;
+font-size: 70px;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+}
+
+.Home .headerContainer p{
+    margin-top: 13px;
+    padding: 0;
+    font-size: 40px;
+    font-weight: lighter;
+    color: white;
+}
+
+.Home .headerContainer button{
+    background-color: orange;
+    margin-top: 13px;
+    border: none;
+    border-radius: 5px;
+    height: 50px;
+    width: 180px;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.headerContainer button:hover{
+    background-color: orangered;
+}
+
+/*Mobile view*/
+@media only screen and(max-width: 600px){
+.Home{
+    justify-content: center;
+    align-items: center;
+}
+}
